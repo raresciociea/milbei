@@ -1,28 +1,34 @@
-#Mil{
+#Mil {
     color: white;
     background-color: black;
     font-family: "Bauhaus 93";
     text-align: center;
-    width:98vw;
+    width: 98vw;
+    height: auto;
+}
 
-}
-.giphy-embed{
+.giphy-embed {
     height: 80vh;
-    width:90vw;
+    width: 90vw;
 }
-#Mil{
+
+#Mil {
     height: 94vh;
 }
-#Navbar{
-    width:50vw;
+
+#Navbar {
+    width: 50vw;
     height: 50px;
     position: fixed;
     background-color: aliceblue;
-    left: 50%; width: 400px; margin-left:-200px;
-    top:10px;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    top: 10px;
     /*opacity: 10%;*/
     overflow: hidden;
 }
+
 #Navbar a {
     float: left;
     color: black;
@@ -30,42 +36,49 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border-color:black;
+    border-color: black;
 }
-#navbut{
-    width:50px;
+
+#navbut {
+    width: 50px;
     height: 50px;
 }
-#Title{
-    padding:0px;
-    margin:0px;
+
+#Title {
+    padding: 0px;
+    margin: 0px;
 }
-#Title:hover{
-    animation-name:rotatie;
+
+#Title:hover {
+    animation-name: rotatie;
     animation-duration: 2s;
     animation-timing-function: linear;
 }
+
 @keyframes rotatie {
-    50%{
-       transform: rotate(180deg);
-        color:pink;
+    50% {
+        transform: rotate(180deg);
+        color: pink;
     }
-    75%{
-        color:pink;
+    75% {
+        color: pink;
     }
-    100%{
+    100% {
         transform: rotate(360deg);
-        color:white;
+        color: white;
     }
 }
-#MilMare:hover{
-    color:pink;
+
+#MilMare:hover {
+    color: pink;
     transform: scale(1.5);
 }
-#SubmitButton{
-    background-color:black;
-    color:white;
+
+#SubmitButton {
+    background-color: black;
+    color: white;
 }
-body{
+
+body {
     background-color: blanchedalmond;
 }
